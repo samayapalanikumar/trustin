@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-export default function DashboardPage() {
+export default function DashboardPage() { 
   return (
-    <>
-    <div>
-  <div className="flex justify-center items-center  mt-20  md:flex-1 sm:flex">
-    <div className="p-6 flex flex-col justify-center items-center shadow-xl bg-zinc-50 rounded ">
+    <> 
+    <div >
+  <div className="flex justify-center items-center  mt-50  md:flex-1 sm:flex">
+    <div className="p-15 flex flex-col justify-center items-center shadow-xl bg-zinc-50 rounded   ">
     <Image className="p-2" src={image} width={80} height={80} alt=" "/>
-      <p className="font-black italic sm:text-xl text-2xl">Test Request Form Submitted Successfully..!</p>
+      <p className="font-black italic text-2xl text-left md:text-center">Test Request Form Submitted Successfully..!</p>
     </div>
   </div>
   </div>
